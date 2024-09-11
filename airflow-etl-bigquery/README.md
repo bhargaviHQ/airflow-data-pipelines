@@ -3,13 +3,13 @@
 
 ## Description
 
-- **`airflow_env/`**: Contains the setup for the Airflow environment including binaries, configuration files, and logs.
+- **`airflow_env/`**: Contains the setup for the Airflow environment including binaries, configuration files, and logs (will be created after initializing the environment).
   - **`bin/`**: Directory for Airflow binaries.
   - **`etc/`**: Directory for configuration files.
   - **`logs/`**: Directory where Airflow logs are stored.
   - **`airflow.cfg`**: The main configuration file for Airflow.
 
-- **`DAG/`**: Directory for Airflow Directed Acyclic Graphs (DAGs).
+- **`DAG/`**: Directory for Airflow Directed Acyclic Graphs (This is included in the repository).
   - **`bigquery_data_pipeline.py`**: DAG file for a data pipeline involving BigQuery.
 
 - **`requirements.txt`**: List Python dependencies required for the project.
