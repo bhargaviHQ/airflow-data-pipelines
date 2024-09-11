@@ -3,7 +3,7 @@
 
 ## Description
 
-- **`airflow_env/`**: Contains the setup for the Airflow environment including binaries, configuration files, and logs (will be created after initializing the environment).
+- **`airflow_env/`**: Contains the setup for the Airflow environment including binaries, configuration files, and logs (all except 'dags/' will be created after initializing the environment).
   - **`bin/`**: Directory for Airflow binaries.
   - **`etc/`**: Directory for configuration files.
   - **`logs/`**: Directory where Airflow logs are stored.
