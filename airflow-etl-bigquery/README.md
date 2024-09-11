@@ -8,11 +8,10 @@
   - **`etc/`**: Directory for configuration files.
   - **`logs/`**: Directory where Airflow logs are stored.
   - **`airflow.cfg`**: The main configuration file for Airflow.
+  - **`dags/`**: Directory for Airflow Directed Acyclic Graphs (DAG).
+    - **`bigquery_data_pipeline.py`**: DAG file for data pipeline for BigQuery (This is included in the repository with 1  DAG).
 
-- **`DAG/`**: Directory for Airflow Directed Acyclic Graphs (This is included in the repository).
-  - **`bigquery_data_pipeline.py`**: DAG file for a data pipeline involving BigQuery.
-
-- **`requirements.txt`**: List Python dependencies required for the project.
+- **`requirements.txt`**: File liting Python dependencies required for the project.
 
 ## Setup Instructions
 
