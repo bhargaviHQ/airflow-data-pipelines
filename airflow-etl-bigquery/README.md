@@ -1,11 +1,13 @@
 
 ### Airflow Setup and Commands for Big query project
 
+
+
 Airflow pipeline BigQuery: 
 - dataset_id: google_trends
 - table_id: top_rising_terms
 
-Description: Daily top rising terms in the United States, including score, ranking, time, and designated market area.
+Description: This project fetches daily top rising search terms for Google Trends from BigQuery and stores the data in a CSV file. The data provides daily top rising terms in the United States, including score, ranking, time, and designated market area.
 
 ## Description
 
